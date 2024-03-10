@@ -2,7 +2,7 @@
 {
     public static void Main()
     {
-        int[] arr = [2, 4, 6];
+        int[] arr = [2, 4, 6, 8];
 
         Console.WriteLine(CalcAvg(arr));
     }
