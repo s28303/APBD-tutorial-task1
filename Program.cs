@@ -1,5 +1,16 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine(3 + 3);
+﻿class Program
+{
+    public static void Main()
+    {
+        int[] arr = [2, 4, 6];
 
-int someNumber = 10;
-Console.WriteLine(someNumber);
+        Console.WriteLine(CalcAvg(arr));
+    }
+
+    public static int CalcAvg(int[] arr)
+    {
+        int avarage = arr.Sum() / arr.Length;
+
+        return avarage;
+    }
+}
