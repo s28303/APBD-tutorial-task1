@@ -17,6 +17,7 @@
 
     public static int FindMax(int[] arr)
     {
-        return arr.Max();
+        int max = arr.Max();
+        return max;
     }
 }
