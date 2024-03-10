@@ -9,12 +9,13 @@
     }
 
     public static int CalcAvg(int[] arr)
-    {
+
+    {   
         int sum = 0;
 
-        for (int i = 0; i < arr.Length; i++)
+        foreach (int i in arr)
         {
-            sum += arr[i];
+            sum += i;
         }
 
         int avarage = sum / arr.Length;
